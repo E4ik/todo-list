@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #678983;
+    color: #F0E9D2;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+header{
+    height: 20vh;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181D31;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    input, button{
+        border: none;
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 0.5rem;
+        border-radius: 3%;
+    }
+}
+button{
+    cursor: pointer;
+    background-color: #E6DDC4;
+    // border-radius: 50%;
+}
