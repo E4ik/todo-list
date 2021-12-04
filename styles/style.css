@@ -47,7 +47,7 @@ form input, form button {
   border-radius: 3%;
 }
 
-button {
+form button {
   cursor: pointer;
   background-color: #E6DDC4;
 }

@@ -29,9 +29,14 @@ form{
         margin: 0.5rem;
         border-radius: 3%;
     }
-}
-button{
-    cursor: pointer;
-    background-color: #E6DDC4;
-    // border-radius: 50%;
+    button{
+        cursor: pointer;
+        background-color: #E6DDC4;
+    }
+  }
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
